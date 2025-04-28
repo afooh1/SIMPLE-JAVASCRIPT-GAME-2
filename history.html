@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Guess My Number</a>
+            <ul class="nav-menu">
+                <li><a href="login_page.html" class="nav-link">Home</a></li>
+                <li><a href="game.html" class="nav-link">Game</a></li>
+                <li> <a href="history.html">history</a></li>
+                <li><a href="instruction.html">Instructions</a></li>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="history">
+            <h2>Your Previous Attempts</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Number </th>
+                        <th>Attempts</th>
+                    </tr>
+                </thead>
+                <tbody id="history-list">
+                    <!-- History data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Game</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
